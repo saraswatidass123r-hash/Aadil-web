@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description"
+        content="Find help and support for using Aadil Mods. Learn how to get keys, install mods, and troubleshoot issues." />
+    <meta name="keywords" content="help, support, FAQ, tutorials, Aadil Mods" />
+    <meta property="og:title" content="Help & Support - Aadil Mods" />
+    <meta property="og:description"
+        content="Find help and support for using Aadil Mods. Learn how to get keys, install mods, and troubleshoot issues." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mods.aadilmods.com/help" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{OG_TITLE}}" />
+    <meta name="twitter:description" content="{{OG_DESCRIPTION}}" />
+    <link rel="canonical" href="https://mods.aadilmods.com/help" />
+    <link rel="icon" href="/assets/icons/aadilmods.ico" type="image/x-icon">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css?v=1" />
+
+    <title>Help & Support - Aadil Mods</title>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is this site for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This is the official website of Aadil Mods. Here you can download modded games and learn how to make mods through step-by-step tutorials made by Aadil."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it safe to use these mods?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it's completely safe. All our mods are tested and 100% malware-free before being shared."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I download mods from this site?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each mod has its own page with a download button. You can browse our games section and click on any mod to access the download page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are there so many ads when downloading mods?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ads help us earn revenue to keep providing free mods. However, if you don't want to go through ads, you can buy our VIP subscription for instant downloads and automatic keys."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get keys for mods?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can get free keys from our Get Keys page. VIP subscribers can get keys instantly from the VIP dashboard at app.aadilmods.com"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I contact support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can reach our support team through the Contact page on this website, via email at gameraadilmods@gmail.com, or through our Telegram at @aadilop"
+      }
+    }
+  ]
+}
+</script>
+</head>
+
+<body class="bg-white text-slate-800 antialiased">
+    <!-- Header -->
+    <header class="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="flex items-center justify-between h-16">
+                <!-- Mobile: Menu + Logo + Theme -->
+                <div class="flex items-center gap-3 md:hidden w-full">
+                    <button id="mobile-menu-button" class="p-2 rounded hover:bg-slate-100 dark:hover:bg-slate-800">
+                        <span class="material-symbols-rounded">menu</span>
+                    </button>
+
+                    <a href="/" class="flex items-center gap-3 flex-1">
+                        <img src="/assets/icons/aadilmods.svg" alt="Aadil Mods" class="h-10 w-10 rounded-lg"
+                            loading="lazy" />
+                        <div>
+                            <div class="text-lg font-semibold">Aadil Mods</div>
+                            <div class="text-xs text-slate-500 dark:text-slate-400 -mt-1">Free Mods & Tutorials</div>
+                        </div>
+                    </a>
+
+                    <button id="theme-toggle-mobile" class="p-2 rounded hover:bg-slate-100 dark:hover:bg-slate-800">
+                        <span id="theme-icon-mobile" class="material-symbols-rounded">dark_mode</span>
+                    </button>
+                </div>
+
+                <!-- Desktop: Logo + Nav -->
+                <div class="hidden md:flex items-center gap-3">
+                    <a href="/" class="flex items-center gap-3">
+                        <img src="/assets/icons/aadilmods.svg" alt="Aadil Mods" class="h-10 w-10 rounded-lg"
+                            loading="lazy" />
+                        <div>
+                            <div class="text-lg font-semibold">Aadil Mods</div>
+                            <div class="text-xs text-slate-500 dark:text-slate-400 -mt-1">Free Mods & Tutorials</div>
+                        </div>
+                    </a>
+                </div>
+
+                <nav id="desktop-nav" class="hidden md:flex items-center gap-6">
+                    <a href="/" class="nav-link">Home</a>
+                    <a href="/contact.html" class="nav-link">Contact</a>
+                    <a href="/help.html" class="nav-link">Help</a>
+                    <a href="/about.html" class="nav-link">About</a>
+                    <a href="/donate.html" class="nav-link">Donate</a>
+
+                    <button id="theme-toggle"
+                        class="flex items-center gap-2 p-2 rounded hover:bg-slate-100 dark:hover:bg-slate-800">
+                        <span id="theme-icon" class="material-symbols-rounded">dark_mode</span>
+                        <span id="theme-text" class="text-sm">Dark</span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Mobile menu -->
+        <div id="mobile-menu"
+            class="md:hidden hidden border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
+            <div class="px-4 py-3 space-y-2">
+                <a href="/" class="block mobile-link">Home</a>
+                <a href="/contact.html" class="block mobile-link">Contact</a>
+                <a href="/help.html" class="block mobile-link">Help</a>
+                <a href="/about.html" class="block mobile-link">About</a>
+                <a href="/donate.html" class="block mobile-link">Donate</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 py-2">
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <h1 class="hero-title">Help Center</h1>
+            <p class="hero-description">
+                Find answers to common questions and get support for Aadil Mods App.
+            </p>
+        </div>
+
+        <!-- Quick Links -->
+        <section class="mb-8">
+            <div class="content-card">
+                <h2 class="text-xl font-semibold mb-4">Quick Links</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <a href="https://youtube.com/@aadilmods" target="_blank"
+                        class="quick-link flex items-center gap-4 p-4 rounded-lg transition-colors">
+                        <div class="w-12 h-12 bg-red-500 rounded-lg flex items-center justify-center">
+                            <span class="material-symbols-rounded text-white">play_arrow</span>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">YouTube</h3>
+                            <p class="text-sm text-secondary">Official Youtube Channel</p>
+                        </div>
+                    </a>
+
+                    <a href="https://t.me/aadilmodsofficial" target="_blank"
+                        class="quick-link flex items-center gap-4 p-4 rounded-lg transition-colors">
+                        <div class="w-12 h-12 bg-cyan-500 rounded-lg flex items-center justify-center">
+                            <span class="material-symbols-rounded text-white">send</span>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">Telegram</h3>
+                            <p class="text-sm text-secondary">Official Telegram Channel</p>
+                        </div>
+                    </a>
+
+                    <a href="/contact" data-link
+                        class="quick-link flex items-center gap-4 p-4 rounded-lg transition-colors">
+                        <div class="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center">
+                            <span class="material-symbols-rounded text-white">support_agent</span>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold">Contact Support</h3>
+                            <p class="text-sm text-secondary">Get personalized help</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section>
+            <div class="content-card">
+                <h2 class="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
+
+                <div class="space-y-4">
+
+                    <!-- FAQ Item 1 -->
+                    <div class="faq-item border border-slate-200 dark:border-slate-600 rounded-lg">
+                        <button class="faq-question w-full flex items-center justify-between p-4 text-left"
+                            data-faq="1">
+                            <span class="font-medium">What is this site for?</span>
+                            <span class="material-symbols-rounded">expand_more</span>
+                        </button>
+                        <div id="faq-1" class="faq-answer hidden px-4 pb-4 text-secondary">
+                            <p>This is the official website of Aadil Mods. Here you can download modded games and learn
+                                how to make mods through step-by-step tutorials made by Aadil.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="faq-item border border-slate-200 dark:border-slate-600 rounded-lg">
+                        <button class="faq-question w-full flex items-center justify-between p-4 text-left"
+                            data-faq="2">
+                            <span class="font-medium">Is it safe to use these mods?</span>
+                            <span class="material-symbols-rounded">expand_more</span>
+                        </button>
+                        <div id="faq-2" class="faq-answer hidden px-4 pb-4 text-secondary">
+                            <p>Yes, it's completely safe. All our mods are tested and 100% malware-free before being
+                                shared.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="faq-item border border-slate-200 dark:border-slate-600 rounded-lg">
+                        <button class="faq-question w-full flex items-center justify-between p-4 text-left"
+                            data-faq="3">
+                            <span class="font-medium">How can I download mods from this site?</span>
+                            <span class="material-symbols-rounded">expand_more</span>
+                        </button>
+                        <div id="faq-3" class="faq-answer hidden px-4 pb-4 text-secondary">
+                            <p>Each mod has its own page with a download button. For example, you can visit <a
+                                    href="/posts/amongus" data-link class="text-blue-600 hover:text-blue-700">this
+                                    page</a> to download the Among Us mod.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="faq-item border border-slate-200 dark:border-slate-600 rounded-lg">
+                        <button class="faq-question w-full flex items-center justify-between p-4 text-left"
+                            data-faq="4">
+                            <span class="font-medium">Why are there so many ads when downloading mods?</span>
+                            <span class="material-symbols-rounded">expand_more</span>
+                        </button>
+                        <div id="faq-4" class="faq-answer hidden px-4 pb-4 text-secondary">
+                            <p>Ads help us earn revenue to keep providing free mods. Because of this, we can't offer
+                                direct download links for free users.
+                                <br>However, if you don't want to go through ads, you can buy our VIP subscription. VIP
+                                users can download mods instantly and get keys automatically.
+                                <br>You can see all our subscription plans <a href="https://app.aadilmods.com/plans"
+                                    target="_blank" class="text-blue-600 hover:text-blue-700">by clicking here</a>.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="faq-item border border-slate-200 dark:border-slate-600 rounded-lg">
+                        <button class="faq-question w-full flex items-center justify-between p-4 text-left"
+                            data-faq="5">
+                            <span class="font-medium">How do I get keys for mods?</span>
+                            <span class="material-symbols-rounded">expand_more</span>
+                        </button>
+                        <div id="faq-5" class="faq-answer hidden px-4 pb-4 text-secondary">
+                            <p>You can get free keys from <a href="/posts/loginkeys" data-link
+                                    class="text-blue-600 hover:text-blue-700">this page</a>.
+                                <br>If you have a VIP subscription, you can get your key instantly from <a
+                                    href="https://app.aadilmods.com/home" target="_blank"
+                                    class="text-blue-600 hover:text-blue-700">this page</a>.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 6 -->
+                    <div class="faq-item border border-slate-200 dark:border-slate-600 rounded-lg">
+                        <button class="faq-question w-full flex items-center justify-between p-4 text-left"
+                            data-faq="6">
+                            <span class="font-medium">How can I contact support?</span>
+                            <span class="material-symbols-rounded">expand_more</span>
+                        </button>
+                        <div id="faq-6" class="faq-answer hidden px-4 pb-4 text-secondary">
+                            <p>You can reach our support team anytime through the <a href="/contact" data-link
+                                    class="text-blue-600 hover:text-blue-700">Contact</a> page on this website.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Still Need Help -->
+        <section class="mt-8">
+            <div class="content-card text-center">
+                <span class="material-symbols-rounded text-4xl text-blue-600 mb-4 block">help_center</span>
+                <h2 class="text-xl font-semibold mb-4">Still Need Help?</h2>
+                <p class="text-secondary mb-6">
+                    Can't find what you're looking for? Our support team is here to help you with any questions or
+                    issues.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact" class="btn">
+                        <span class="material-symbols-rounded">contact_support</span>Contact Support</a>
+                    <a href="https://t.me/aadilop" target="_blank" class="btn" style="background: #06b6d4;">
+                        <span class="material-symbols-rounded">send</span>Telegram Chat</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-12 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 py-2">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <img src="/assets/icons/aadilmods.svg" alt="Aadil Mods" class="h-10 w-10 rounded-lg"
+                        loading="lazy" />
+                    <div>
+                        <div class="font-semibold">Aadil Mods</div>
+                        <div class="text-sm text-slate-500 dark:text-slate-400">Download, Enjoy Game Mods</div>
+                    </div>
+                </div>
+                <div class="text-sm text-slate-500 dark:text-slate-400 mt-4 md:mt-0">
+                    &copy; 2025 Aadil Mods. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="/js/app.js?v=1"></script>
+    <script src="/js/slideshow.js?v=1"></script>
+</body>
+
+</html>

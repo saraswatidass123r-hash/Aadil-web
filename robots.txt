@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mods.aadilmods.com/sitemap.xml
