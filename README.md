@@ -1,2 +1,0 @@
-# Aadil-web
-Aadil site 
